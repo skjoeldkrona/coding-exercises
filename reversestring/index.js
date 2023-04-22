@@ -13,4 +13,20 @@ function reverse(str) {
     .join(''); // array chars joined to form a string
 }
 
+// 1 st alternative solution
+
+// function reverse(str) {
+//   let reversed = '';
+//   for (let character of str) {
+//     reversed = character + reversed;
+//   }
+//   return reversed;
+// }
+
+// 2nd alternative solution
+
+// function reverse(str) {
+//   return str.split('').reduce((prev, curr) => curr + prev, '');
+// }
+
 module.exports = reverse;
