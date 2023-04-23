@@ -7,11 +7,14 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
+  debugger;
   return str
     .split('') // string splitted into an array of chars
     .reverse() // array order reversed
     .join(''); // array chars joined to form a string
 }
+
+reverse('sdsas');
 
 // 1 st alternative solution
 
