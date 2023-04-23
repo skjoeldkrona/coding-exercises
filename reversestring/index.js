@@ -7,7 +7,6 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
-  debugger;
   return str
     .split('') // string splitted into an array of chars
     .reverse() // array order reversed
@@ -15,8 +14,6 @@ function reverse(str) {
 }
 
 reverse('sdsas');
-
-// 1 st alternative solution
 
 // function reverse(str) {
 //   let reversed = '';
